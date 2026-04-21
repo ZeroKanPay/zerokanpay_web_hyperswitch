@@ -597,7 +597,7 @@ let getPaymentMethodsFields = (~localeString: LocaleStringTypes.localeStrings) =
     paymentMethodName: "pix_qr_transfer",
     fields: [InfoElement],
     icon: Some(icon("pix", ~size=26, ~width=40)),
-    displayName: localeString.payment_methods_pix_transfer,
+    displayName: localeString.payment_methods_pix_qr_transfer,
     miniIcon: None,
   },
   {
