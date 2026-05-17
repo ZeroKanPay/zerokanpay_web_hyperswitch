@@ -1003,15 +1003,13 @@ License)
     fill="currentColor"
   >
     <text
-      x="0" y="10"
+      x="0" y="9.5"
       font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif"
-      font-size="10" font-weight="400" fill="currentColor" opacity="0.5"
-    >Powered by</text>
-    <text
-      x="47" y="10"
-      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif"
-      font-size="10" font-weight="600" fill="currentColor"
-    >ZeroKanPay</text>
+      font-size="10"
+      fill="currentColor"
+      textLength="130"
+      lengthAdjust="spacingAndGlyphs"
+    ><tspan font-weight="400" fill-opacity="0.5">Powered by </tspan><tspan font-weight="600">ZeroKanPay</tspan></text>
   </symbol>
 
   <!-- <symbol id="interac" width="20" height="20" viewBox="0 0 20 20" fill="none">
