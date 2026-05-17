@@ -8,7 +8,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   inCompleteExpiryErrorText: "您的卡片到期日期不完整。",
   enterValidCardNumberErrorText: "請輸入有效的卡號。",
   pastExpiryErrorText: "您的卡片到期年份已過期。",
-  poweredBy: "技術支持：Hyperswitch",
+  poweredBy: "技術支持：ZeroKanPay",
   validThruText: "有效期限",
   sortCodeText: "排序碼",
   cvcTextLabel: "安全碼",
@@ -50,7 +50,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
     `您的ACH借記授權現在將被設置，我們會在未來扣款前確認金額並通知您。`,
   sepaDebitTerms: str =>
     `通過提供您的付款信息並確認此授權書，您授權（A）${str}、債權人和/或我們的支付服務提供商向您的銀行發出指令以扣取您的帳戶資金，（B）您的銀行根據${str}的指令扣取您的帳戶資金。作為您的權利的一部分，根據您與銀行的協議條款，您有權向銀行申請退款。退款必須在帳戶扣款日起的8週內申請。您的權利在您可以從銀行獲得的聲明中進行了解釋。`,
-  becsDebitTerms: `通過提供您的銀行帳戶詳細信息並確認此付款，您同意此直接借記請求和直接借記請求服務協議，並授權Hyperswitch Payments Australia Pty Ltd ACN 160 180 343，直接借記用戶ID號507156（“Hyperswitch”）通過批量電子清算系統（BECS）代表Hyperswitch Payment Widget（“商戶”）從您的帳戶中扣款，金額由商戶另行通知您。您保證您是上述帳戶的持有人或授權簽署人。`,
+  becsDebitTerms: `通過提供您的銀行帳戶詳細信息並確認此付款，您同意此直接借記請求和直接借記請求服務協議，並授權ZeroKanPay Payments [AU entity TBD]，直接借記用戶ID號[TBD]（“ZeroKanPay”）通過批量電子清算系統（BECS）代表ZeroKanPay Payment Widget（“商戶”）從您的帳戶中扣款，金額由商戶另行通知您。您保證您是上述帳戶的持有人或授權簽署人。`,
   cardTerms: str =>
     `通過提供您的卡片信息，您允許${str}根據其條款從您的卡片中扣款以進行未來的付款。`,
   payNowButton: "立即付款",

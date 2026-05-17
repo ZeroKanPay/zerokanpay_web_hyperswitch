@@ -8,7 +8,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   inCompleteExpiryErrorText: `La data di scadenza della carta è incompleta.`,
   enterValidCardNumberErrorText: `Inserisci un numero di carta valido.`,
   pastExpiryErrorText: `L'anno di scadenza della tua carta è passato.`,
-  poweredBy: `Offerto da Hyperswitch`,
+  poweredBy: `Offerto da ZeroKanPay`,
   validThruText: `Scadenza`,
   sortCodeText: `Sort Code`,
   cvcTextLabel: `CVC`,
@@ -37,10 +37,10 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   saveCardDetails: `Salva i dati della carta`,
   addBankAccount: `Aggiungi un conto bancario`,
   achBankDebitTerms: str =>
-    `Fornendo il tuo numero di conto e confermando questo pagamento, autorizzi ${str} e Hyperswitch, il nostro fornitore di servizi di pagamento, a inviare istruzioni alla tua banca per effettuare l'addebito sul tuo conto e la tua banca a effettuare tale addebito sul conto in conformità alle presenti istruzioni. Hai diritto a un rimborso dalla tua banca secondo i termini e le condizioni del tuo contratto con la stessa. Il rimborso va richiesto entro 8 settimane a partire dalla data di addebito sul conto.`,
+    `Fornendo il tuo numero di conto e confermando questo pagamento, autorizzi ${str} e ZeroKanPay, il nostro fornitore di servizi di pagamento, a inviare istruzioni alla tua banca per effettuare l'addebito sul tuo conto e la tua banca a effettuare tale addebito sul conto in conformità alle presenti istruzioni. Hai diritto a un rimborso dalla tua banca secondo i termini e le condizioni del tuo contratto con la stessa. Il rimborso va richiesto entro 8 settimane a partire dalla data di addebito sul conto.`,
   sepaDebitTerms: str =>
     `Fornendo le tue informazioni di pagamento e confermando questo modulo di mandato, autorizzi (A) ${str}, il Creditore e/o i nostri fornitori di servizi di pagamento a inviare istruzioni alla tua banca per addebitare il tuo conto e (B) la tua banca ad addebitare il tuo conto secondo le istruzioni di ${str}. Come parte dei tuoi diritti, hai diritto a un rimborso dalla tua banca secondo i termini e le condizioni del tuo accordo con la tua banca. Il rimborso deve essere richiesto entro 8 settimane dalla data in cui il tuo conto è stato addebitato. I tuoi diritti sono spiegati in una dichiarazione che puoi ottenere dalla tua banca.`,
-  becsDebitTerms: `Fornendo i dettagli del tuo conto bancario e confermando questo pagamento, accetti la presente Richiesta di addebito diretto e il contratto di servizio per la Richiesta di addebito diretto e autorizzi Hyperswitch Payments Australia Pty Ltd ACN 160 180 343, numero identificativo utente per addebito diretto 507156 ( \"Hyperswitch\") a effettuare l'addebito sul tuo conto tramite il Bulk Electronic Clearing System (BECS) per conto di Hyperswitch Payment Widget (l' Esercente) per qualsiasi importo ti venga comunicato separatamente dall'Esercente. Dichiari di essere titolare o firmatario autorizzato del conto sopra indicato.`,
+  becsDebitTerms: `Fornendo i dettagli del tuo conto bancario e confermando questo pagamento, accetti la presente Richiesta di addebito diretto e il contratto di servizio per la Richiesta di addebito diretto e autorizzi ZeroKanPay Payments [AU entity TBD], numero identificativo utente per addebito diretto [TBD] ( \"ZeroKanPay\") a effettuare l'addebito sul tuo conto tramite il Bulk Electronic Clearing System (BECS) per conto di ZeroKanPay Payment Widget (l' Esercente) per qualsiasi importo ti venga comunicato separatamente dall'Esercente. Dichiari di essere titolare o firmatario autorizzato del conto sopra indicato.`,
   cardTerms: str =>
     `Fornendo i dati della tua carta, autorizzi ${str} ad addebitare sulla tua carta pagamenti futuri in conformità con i suoi termini.`,
   payNowButton: `Paga ora`,

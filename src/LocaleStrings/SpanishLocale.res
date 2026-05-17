@@ -8,7 +8,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   inCompleteExpiryErrorText: `La fecha de vencimiento de su tarjeta está incompleta.`,
   enterValidCardNumberErrorText: `Por favor ingrese un número de tarjeta válido.`,
   pastExpiryErrorText: `El año de vencimiento de su tarjeta ya ha pasado.`,
-  poweredBy: `Desarrollado por Hyperswitch`,
+  poweredBy: `Desarrollado por ZeroKanPay`,
   validThruText: `Vencimiento`,
   sortCodeText: `Código Sort`,
   cvcTextLabel: `CVV`,
@@ -37,10 +37,10 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   saveCardDetails: `Guardar la información de la tarjeta`,
   addBankAccount: `Añadir cuenta bancaria`,
   achBankDebitTerms: str =>
-    `Al proporcionar su número de cuenta y confirmar este pago, autoriza a ${str} y Hyperswitch, nuestro proveedor de servicios de pago, a enviar órdenes a su banco para que aplique cargos en su cuenta y para que realice los correspondientes adeudos en la misma de acuerdo con dichas órdenes. Tiene derecho a recibir un reembolso de su banco de acuerdo con las condiciones del contrato suscrito. El reembolso debe reclamarse en un plazo de 8 semanas desde la fecha en la que se aplicó el cargo en su cuenta.`,
+    `Al proporcionar su número de cuenta y confirmar este pago, autoriza a ${str} y ZeroKanPay, nuestro proveedor de servicios de pago, a enviar órdenes a su banco para que aplique cargos en su cuenta y para que realice los correspondientes adeudos en la misma de acuerdo con dichas órdenes. Tiene derecho a recibir un reembolso de su banco de acuerdo con las condiciones del contrato suscrito. El reembolso debe reclamarse en un plazo de 8 semanas desde la fecha en la que se aplicó el cargo en su cuenta.`,
   sepaDebitTerms: str =>
     `Al proporcionar su información de pago y confirmar este formulario de mandato, autoriza (A) a ${str}, el Acreedor y/o nuestros proveedores de servicios de pago a enviar instrucciones a su banco para debitar su cuenta y (B) a su banco a debitar su cuenta de acuerdo con las instrucciones de ${str}. Como parte de sus derechos, tiene derecho a un reembolso de su banco según los términos y condiciones de su acuerdo con su banco. El reembolso debe solicitarse dentro de las 8 semanas siguientes a la fecha en que se debitó su cuenta. Sus derechos se explican en un documento que puede obtener en su banco.`,
-  becsDebitTerms: `Al proporcionar los datos de su cuenta bancaria y confirmar este pago, acepta esta solicitud de domiciliación bancaria y el acuerdo de servicio para la misma. Además, autoriza a Hyperswitch Payments Australia Pty Ltd ACN 160 180 343, número de identificación de usuario de domiciliación bancaria 507156 («Hyperswitch»), a realizar adeudos en su cuenta a través del sistema de compensación electrónica masiva (BECS) en nombre de Hyperswitch Payment Widget (el «comercio») por cualquier importe que el comercio le comunique individualmente. Certifica que es titular de una cuenta o un firmante autorizado en la cuenta indicada anteriormente.`,
+  becsDebitTerms: `Al proporcionar los datos de su cuenta bancaria y confirmar este pago, acepta esta solicitud de domiciliación bancaria y el acuerdo de servicio para la misma. Además, autoriza a ZeroKanPay Payments [AU entity TBD], número de identificación de usuario de domiciliación bancaria [TBD] («ZeroKanPay»), a realizar adeudos en su cuenta a través del sistema de compensación electrónica masiva (BECS) en nombre de ZeroKanPay Payment Widget (el «comercio») por cualquier importe que el comercio le comunique individualmente. Certifica que es titular de una cuenta o un firmante autorizado en la cuenta indicada anteriormente.`,
   cardTerms: str =>
     `Al proporcionar la información de su tarjeta, permite a ${str} que realice cargos en su tarjeta para futuros pagos de acuerdo con sus términos.`,
   payNowButton: `Pagar ahora`,

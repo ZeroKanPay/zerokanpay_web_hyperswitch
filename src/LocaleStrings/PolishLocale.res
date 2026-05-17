@@ -8,7 +8,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   inCompleteExpiryErrorText: `Data ważności karty jest niepełna.`,
   enterValidCardNumberErrorText: `Proszę podać prawidłowy numer karty.`,
   pastExpiryErrorText: `Rok w dacie ważności karty minął.`,
-  poweredBy: `Na oprogramowaniu Hyperswitch`,
+  poweredBy: `Na oprogramowaniu ZeroKanPay`,
   validThruText: `Data ważności`,
   sortCodeText: `Kod sortowania`,
   cvcTextLabel: `CVC`,
@@ -37,10 +37,10 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   saveCardDetails: `Zapisz dane karty`,
   addBankAccount: `Dodaj konto bankowe`,
   achBankDebitTerms: str =>
-    `Podając numer konta i potwierdzając tę płatność, upoważniasz ${str} i Hyperswitch, naszego dostawcę usług płatniczych, do przekazania Twojemu bankowi dyspozycji obciążenia Twojego konta, a Twój bank – do obciążenia Twojego konta zgodnie z tymi instrukcjami. Przysługuje Ci prawo do zwrotu pieniędzy od banku zgodnie z warunkami umowy zawartej z bankiem. Wniosek o zwrot pieniędzy należy złożyć w ciągu 8 dni od dnia obciążenia konta.`,
+    `Podając numer konta i potwierdzając tę płatność, upoważniasz ${str} i ZeroKanPay, naszego dostawcę usług płatniczych, do przekazania Twojemu bankowi dyspozycji obciążenia Twojego konta, a Twój bank – do obciążenia Twojego konta zgodnie z tymi instrukcjami. Przysługuje Ci prawo do zwrotu pieniędzy od banku zgodnie z warunkami umowy zawartej z bankiem. Wniosek o zwrot pieniędzy należy złożyć w ciągu 8 dni od dnia obciążenia konta.`,
   sepaDebitTerms: str =>
     `Podając swoje informacje płatnicze i potwierdzając ten formularz zlecenia, upoważniasz (A) ${str}, wierzyciela i/lub naszych dostawców usług płatniczych do wysłania instrukcji do twojego banku, aby obciążył twoje konto oraz (B) twój bank do obciążenia twojego konta zgodnie z instrukcjami od ${str}. W ramach swoich praw masz prawo do zwrotu od swojego banku zgodnie z warunkami umowy z bankiem. Zwrot należy zgłosić w ciągu 8 tygodni od dnia, w którym twoje konto zostało obciążone. Twoje prawa są opisane w oświadczeniu, które możesz uzyskać w swoim banku.`,
-  becsDebitTerms: `Podając dane konta bankowego i potwierdzając tę płatność, zgadzasz się na niniejsze polecenie zapłaty i umowę o świadczenie usług polecenia zapłaty oraz upoważniasz Hyperswitch Payments Australia Pty Ltd ACN 160 180 343 numer identyfikacyjny użytkownika polecenia zapłaty 507156 („Hyperswitch”) do obciążenia Twojego konta za pośrednictwem Zbiorczego Elektronicznego Systemu Rozliczeniowego (BECS) w imieniu Hyperswitch Payment Widget („Sprzedawca”) wszelkimi kwotami, o których Sprzedawca poinformował Cię osobno. Oświadczasz, że jesteś posiadaczem konta lub osobą upoważnioną do składania podpisów dla konta wymienionego powyżej.`,
+  becsDebitTerms: `Podając dane konta bankowego i potwierdzając tę płatność, zgadzasz się na niniejsze polecenie zapłaty i umowę o świadczenie usług polecenia zapłaty oraz upoważniasz ZeroKanPay Payments [AU entity TBD] numer identyfikacyjny użytkownika polecenia zapłaty [TBD] („ZeroKanPay”) do obciążenia Twojego konta za pośrednictwem Zbiorczego Elektronicznego Systemu Rozliczeniowego (BECS) w imieniu ZeroKanPay Payment Widget („Sprzedawca”) wszelkimi kwotami, o których Sprzedawca poinformował Cię osobno. Oświadczasz, że jesteś posiadaczem konta lub osobą upoważnioną do składania podpisów dla konta wymienionego powyżej.`,
   cardTerms: str =>
     `Podając dane swojej karty, zezwalasz ${str} na obciążenie jej przyszłymi płatnościami zgodnie z jej warunkami.`,
   payNowButton: `Zapłać teraz`,

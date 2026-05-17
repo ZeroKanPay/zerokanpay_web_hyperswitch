@@ -8,7 +8,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   inCompleteExpiryErrorText: `Kortets utgångsdatum är ofullständigt.`,
   enterValidCardNumberErrorText: `Ange ett giltigt kortnummer.`,
   pastExpiryErrorText: `Kortets utgångsår är i det förflutna.`,
-  poweredBy: `Drivs av Hyperswitch`,
+  poweredBy: `Drivs av ZeroKanPay`,
   validThruText: `Utgångsdatum`,
   sortCodeText: `Sorteringskod`,
   cvcTextLabel: `CVC`,
@@ -37,10 +37,10 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   saveCardDetails: `Spara kortuppgifter`,
   addBankAccount: `Lägg till bankkonto`,
   achBankDebitTerms: str =>
-    `Genom att ange ditt kontonummer och bekräfta denna betalning godkänner du att ${str} och Hyperswitch, vår betaltjänstleverantör, skickar instruktioner till din bank att debitera ditt konto och att din bank debiterar ditt konto i enlighet med dessa instruktioner. Du har rätt till återbetalning från din bank enligt villkoren i ditt avtal med din bank. En återbetalning måste begäras inom 8 veckor från det datum då ditt konto debiterades.`,
+    `Genom att ange ditt kontonummer och bekräfta denna betalning godkänner du att ${str} och ZeroKanPay, vår betaltjänstleverantör, skickar instruktioner till din bank att debitera ditt konto och att din bank debiterar ditt konto i enlighet med dessa instruktioner. Du har rätt till återbetalning från din bank enligt villkoren i ditt avtal med din bank. En återbetalning måste begäras inom 8 veckor från det datum då ditt konto debiterades.`,
   sepaDebitTerms: str =>
     `Genom att lämna din betalningsinformation och bekräfta detta mandatformulär, godkänner du (A) ${str}, borgenären och/eller våra betaltjänstleverantörer att skicka instruktioner till din bank för att debitera ditt konto och (B) din bank att debitera ditt konto enligt instruktioner från ${str}. Som en del av dina rättigheter har du rätt till återbetalning från din bank enligt villkoren i ditt avtal med din bank. Återbetalning måste begäras inom 8 veckor från det datum då ditt konto debiterades. Dina rättigheter förklaras i ett uttalande som du kan få från din bank.`,
-  becsDebitTerms: "Genom att ange dina bankkontouppgifter och bekräfta denna betalning godkänner du denna autogirering och serviceavtalet för autogirering och godkänner att Hyperswitch Payments Australia Pty Ltd ACN 160 180 343 med användar-ID för direktdebitering 507156 ( \"Hyperswitch\") debiterar ditt konto via Bulk Electronic Clearing System (BECS) på uppdrag av Hyperswitch Payment Widget (\"Handlaren\") för eventuella belopp som separat meddelats dig av Handlaren. Du intygar att du antingen är kontoinnehavare eller behörig undertecknare för kontot som anges ovan.",
+  becsDebitTerms: "Genom att ange dina bankkontouppgifter och bekräfta denna betalning godkänner du denna autogirering och serviceavtalet för autogirering och godkänner att ZeroKanPay Payments [AU entity TBD] med användar-ID för direktdebitering [TBD] ( \"ZeroKanPay\") debiterar ditt konto via Bulk Electronic Clearing System (BECS) på uppdrag av ZeroKanPay Payment Widget (\"Handlaren\") för eventuella belopp som separat meddelats dig av Handlaren. Du intygar att du antingen är kontoinnehavare eller behörig undertecknare för kontot som anges ovan.",
   cardTerms: str =>
     `Genom att ange din kortinformation tillåter du att ${str} debiterar ditt kort för framtida betalningar i enlighet med deras villkor.`,
   payNowButton: `Betala nu`,

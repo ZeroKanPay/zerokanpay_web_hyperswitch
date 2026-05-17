@@ -8,7 +8,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   inCompleteExpiryErrorText: `您的卡片到期日期不完整。`,
   enterValidCardNumberErrorText: `请输入有效的卡号。`,
   pastExpiryErrorText: `您的卡片到期年份已过期。`,
-  poweredBy: `由 Hyperswitch 提供技术支持`,
+  poweredBy: `由 ZeroKanPay 提供技术支持`,
   validThruText: `有效期`,
   sortCodeText: `排序代码`,
   cvcTextLabel: `安全碼`,
@@ -50,7 +50,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
     `您的 ACH 扣款授权将立即设置，但我们会确认金额并在未来的付款前通知您。`,
   sepaDebitTerms: str =>
     `通过提供您的支付信息并确认此授权书表格，您授权 (A) ${str}，债权人和/或我们的支付服务提供商向您的银行发送指令以从您的账户中扣款，以及 (B) 您的银行按照 ${str} 的指示从您的账户中扣款。作为您权利的一部分，您有权根据与银行的协议条款和条件从您的银行获得退款。退款请求必须在从您的账户被扣款之日起的 8 周内提出。您的权利在您可以从银行获取的声明中有详细说明。`,
-  becsDebitTerms: `通过提供您的银行账户详细信息并确认此付款，您同意此直接借记请求和直接借记请求服务协议，并授权 Hyperswitch Payments Australia Pty Ltd ACN 160 180 343 直接借记用户 ID 号码 507156（“Hyperswitch”）通过批量电子清算系统（BECS）从您的账户中扣款，代表 Hyperswitch Payment Widget（“商户”）处理任何商户单独通知您的金额。您确认您是上述账户的账户持有人或授权签署人。`,
+  becsDebitTerms: `通过提供您的银行账户详细信息并确认此付款，您同意此直接借记请求和直接借记请求服务协议，并授权 ZeroKanPay Payments [AU entity TBD] 直接借记用户 ID 号码 [TBD]（“ZeroKanPay”）通过批量电子清算系统（BECS）从您的账户中扣款，代表 ZeroKanPay Payment Widget（“商户”）处理任何商户单独通知您的金额。您确认您是上述账户的账户持有人或授权签署人。`,
   cardTerms: str =>
     `通过提供您的卡片信息，您允许 ${str} 根据其条款向您的卡片收费。`,
   payNowButton: `立即支付`,

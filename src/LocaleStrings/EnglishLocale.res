@@ -8,7 +8,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   inCompleteExpiryErrorText: "Your card's expiration date is incomplete.",
   enterValidCardNumberErrorText: "Please enter a valid card number.",
   pastExpiryErrorText: "Your card's expiration year is in the past.",
-  poweredBy: "Powered By Hyperswitch",
+  poweredBy: "Powered By ZeroKanPay",
   validThruText: "Expiry",
   sortCodeText: "Sort Code",
   cvcTextLabel: "CVC",
@@ -50,7 +50,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
     `Your ACH Debit Authorization will be set up now, but we'll confirm the amount and let you know before future payments are taken.`,
   sepaDebitTerms: str =>
     `By providing your payment information and confirming to this mandate form, you authorise (A) ${str}, the Creditor and/or our payment service provider(s) to send instructions to your bank to debit your account and (B) your bank to debit your account in accordance with the instructions from ${str}. As part of your rights, you are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited. Your rights are explained in a statement that you can obtain from your bank.`,
-  becsDebitTerms: `By providing your bank account details and confirming this payment, you agree to this Direct Debit Request and the Direct Debit Request service agreement and authorise Hyperswitch Payments Australia Pty Ltd ACN 160 180 343 Direct Debit User ID number 507156 (“Hyperswitch”) to debit your account through the Bulk Electronic Clearing System (BECS) on behalf of Hyperswitch Payment Widget (the "Merchant") for any amounts separately communicated to you by the Merchant. You certify that you are either an account holder or an authorised signatory on the account listed above.`,
+  becsDebitTerms: `By providing your bank account details and confirming this payment, you agree to this Direct Debit Request and the Direct Debit Request service agreement and authorise ZeroKanPay Payments [AU entity TBD] Direct Debit User ID number [TBD] (“ZeroKanPay”) to debit your account through the Bulk Electronic Clearing System (BECS) on behalf of ZeroKanPay Payment Widget (the "Merchant") for any amounts separately communicated to you by the Merchant. You certify that you are either an account holder or an authorised signatory on the account listed above.`,
   cardTerms: str =>
     `By providing your card information, you allow ${str} to charge your card for future payments in accordance with their terms.`,
   payNowButton: "Pay Now",

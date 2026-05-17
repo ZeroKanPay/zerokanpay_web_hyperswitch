@@ -8,7 +8,7 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   inCompleteExpiryErrorText: `La date d'expiration de votre carte est incomplète.`,
   enterValidCardNumberErrorText: `Veuillez saisir un numéro de carte valide.`,
   pastExpiryErrorText: `L'année d'expiration de votre carte est passée.`,
-  poweredBy: `Alimenté par Hyperswitch`,
+  poweredBy: `Alimenté par ZeroKanPay`,
   validThruText: `Expiration`,
   sortCodeText: `Code guichet`,
   cvcTextLabel: `CVC`,
@@ -37,10 +37,10 @@ let localeStrings: LocaleStringTypes.localeStrings = {
   saveCardDetails: `Enregistrer les détails de la carte`,
   addBankAccount: `Ajouter un compte bancaire`,
   achBankDebitTerms: str =>
-    `En fournissant votre numéro de compte et en confirmant ce paiement, vous autorisez ${str} et Hyperswitch, notre prestataire de services de paiement, à envoyer des instructions à votre banque pour débiter votre compte et votre banque à débiter votre compte conformément à ces instructions. Vous avez droit à un remboursement de la part de votre banque selon les termes et conditions de l'accord que vous avez conclu avec elle. Le remboursement doit être demandé dans un délai de 8 semaines à compter de la date à laquelle votre compte a été débité.`,
+    `En fournissant votre numéro de compte et en confirmant ce paiement, vous autorisez ${str} et ZeroKanPay, notre prestataire de services de paiement, à envoyer des instructions à votre banque pour débiter votre compte et votre banque à débiter votre compte conformément à ces instructions. Vous avez droit à un remboursement de la part de votre banque selon les termes et conditions de l'accord que vous avez conclu avec elle. Le remboursement doit être demandé dans un délai de 8 semaines à compter de la date à laquelle votre compte a été débité.`,
   sepaDebitTerms: str =>
     `En fournissant vos informations de paiement et en confirmant ce formulaire de mandat, vous autorisez (A) ${str}, le Créancier et/ou nos prestataires de services de paiement à envoyer des instructions à votre banque pour débiter votre compte et (B) votre banque à débiter votre compte conformément aux instructions de ${str}. Dans le cadre de vos droits, vous avez droit à un remboursement de votre banque selon les termes et conditions de votre accord avec votre banque. Un remboursement doit être demandé dans un délai de 8 semaines à compter de la date à laquelle votre compte a été débité. Vos droits sont expliqués dans une déclaration que vous pouvez obtenir auprès de votre banque.`,
-  becsDebitTerms: `En fournissant vos coordonnées bancaires et en confirmant ce paiement, vous acceptez la présente demande de prélèvement automatique et l'accord de service de demande de prélèvement automatique et autorisez Hyperswitch Payments Australia Pty Ltd ACN 160 180 343 Numéro d'identification d'utilisateur de prélèvement automatique 507156 (« Hyperswitch ») à débiter votre compte via le système de compensation électronique en bloc (BECS) au nom de Hyperswitch Payment Widget (le « Marchand ») pour tout montant qui vous est communiqué séparément par le Marchand. Vous certifiez que vous êtes soit le titulaire du compte, soit un signataire autorisé du compte mentionné ci-dessus.`,
+  becsDebitTerms: `En fournissant vos coordonnées bancaires et en confirmant ce paiement, vous acceptez la présente demande de prélèvement automatique et l'accord de service de demande de prélèvement automatique et autorisez ZeroKanPay Payments [AU entity TBD] Numéro d'identification d'utilisateur de prélèvement automatique [TBD] (« ZeroKanPay ») à débiter votre compte via le système de compensation électronique en bloc (BECS) au nom de ZeroKanPay Payment Widget (le « Marchand ») pour tout montant qui vous est communiqué séparément par le Marchand. Vous certifiez que vous êtes soit le titulaire du compte, soit un signataire autorisé du compte mentionné ci-dessus.`,
   cardTerms: str =>
     `En fournissant les informations relatives à votre carte, vous autorisez ${str} à débiter votre carte pour les paiements futurs conformément à leurs conditions.`,
   payNowButton: `Payer maintenant`,
